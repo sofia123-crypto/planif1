@@ -12,6 +12,9 @@ import pandas as pd
 from datetime import datetime, timedelta, time
 
 st.set_page_config(page_title="🛠️ Calcul du Temps de Montage", layout="centered")
+
+# Afficher le logo
+st.image("logo.png", width=150)  # Tu peux changer la taille avec width
 st.title("Estimation du Temps de Montage")
 
 #  Fonction intelligente pour gérer les plages disponibles
